@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal-portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <!-- Navigation Bar -->
+     <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <button class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <header id="home" class="hero">
+         <!-- Hero Section -->
+         <video autoplay loop muted class="background-video">
+            <source src="Heropage.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1 class="name">Abdul Samed Rahim</h1>
+            <h2 class="role">Front-End Developer</h2> 
+            <a href="#about" class="scroll-arrow">
+                <div class="circle-arrow">
+                    <span class="arrow">&#x2193;</span>
+                </div>   
+            </a>
+        </div>
+    </header>
+
+   <main>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <img src="image/profile.jpeg" alt="Your Image">
+            <div class="about-description">
+                <p>
+                    I am a self-taught developer with a passion for A.I products with seo optimized UI. 
+                    I have built websites for small enterprises and always strive to deliver the best solutions.
+                </p>
+                <a href="cv.pdf" class="download-cv" download>Download CV</a>
+            </div>
+        </div>
+        <a href="#skills" class="about-arrow">
+            <div class="circle-arrow">
+                <span class="arrow">&darr;</span>
+            </div>
+        </a>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills">
+  <h2 class="skills-title">My Skills</h2> 
+  <div class="skills-container">
+      <div class="skills-grid">
+        <!-- Skill Card -->
+        <div class="skill-card">
+          <p>HTML</p>
+          <img src="image/html-3D.jpg" alt="HTML 3D Icon">
+        </div>
+        <div class="skill-card">
+          <p>CSS</p>
+          <img src="image/CSS.jpeg" alt="CSS 3D Icon">
+        </div>
+        <div class="skill-card">
+          <p>JavaScript</p>
+          <img src="image/javascript.jpeg" alt="JavaScript Logo">
+        </div>
+        <div class="skill-card">
+          <p>Git</p>
+          <img src="image/git.png" alt="Git Logo">
+        </div>
+        <div class="skill-card">
+          <p>GitHub</p>
+          <img src="image/Github.png" alt="GitHub Logo">
+        </div>
+      </div>
+    </div>
+    <!-- Scrolling Arrow -->
+    <a href="#projects" class="skills-arrow">
+      <div class="circle-arrow">
+        <span class="arrow">↓</span>
+      </div>
+    </a>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2 class="projects-title">My Projects</h2>
+  
+  <div class="projects-carousel">
+      <!-- Project Navigation -->
+      <button class="carousel-arrow prev">&#10094;</button>
+      <button class="carousel-arrow next">&#10095;</button>
+      
+      <!-- Project Counter -->
+      <div class="project-counter">
+          <span class="current">1</span>/<span class="total">4</span>
+      </div>
+
+      <!-- Project Cards Container -->
+      <div class="projects-container">
+          <div class="project-card active">
+              <img src="image/project-1.jpeg" alt="Project 1">
+              <div class="project-info">
+                  <h3>Gaming E-comm</h3>
+                  <p>Free games tailored for enthusiasts, Get a premium game for freeee.</p>
+                  <a href="https://glitchgamezofficial.blogspot.com" target="_blank" class="project-link">View Project</a>
+              </div>
+          </div>
+
+          <div class="project-card">
+              <img src="image/project-2.png" alt="Project 2">
+              <div class="project-info">
+                  <h3>Landing Page Builder</h3>
+                  <p>Transform your brand with our elegant landing page builder, offering breathtaking designs, and a smooth user experience.</p>
+                  <a href="https://www.landingfolio.com/" target="_blank" class="project-link">View Project</a>
+              </div>
+          </div>
+
+          <div class="project-card">
+              <img src="image/project-3.png" alt="Project 3">
+              <div class="project-info">
+                  <h3>Lacoste Cloth Store</h3>
+                  <p>Where timeless elegance meets modern design, anybody can dress like a king now.</p>
+                  <a href="https://www.lacoste.com" target="_blank" class="project-link">View Project</a>
+              </div>
+          </div>
+
+          <div class="project-card">
+              <img src="image/project-4.png" alt="Project 4">
+              <div class="project-info">
+                  <h3>RCA Records</h3>
+                  <p>Expertly curated playlists, and unparalleled sound quality for discerning audiophiles for your RECORD.</p>
+                  <a href="https://https://www.rcarecords.com" target="_blank" class="project-link">View Project</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <a href="#contact" class="projects-arrow">
+      <div class="circle-arrow">
+          <span class="arrow">↓</span>
+      </div>
+  </a>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2 class="contact-title">Get In Touch</h2>
+  <div class="contact-container">
+      
+    <!-- Contact Info Cards -->
+<div class="contact-info">
+  <a href="mailto:abdulsamedabdulrahim2006@gmail.com" class="info-card">
+      <div class="icon-circle">📧</div>
+      <h3>Email</h3>
+      <p>abdulsamed19@gmail.com</p>
+      <span class="click-hint">Click to send email</span>
+  </a>
+  
+  <a href="tel:+233546739798" class="info-card">
+      <div class="icon-circle">📱</div>
+      <h3>Phone</h3>
+      <p>+233 546 739 798</p>
+      <span class="click-hint">Click to call</span>
+  </a>
+  
+  <a href="https://maps.google.com/?q=Bantama,+Kumasi" target="_blank" class="info-card">
+      <div class="icon-circle">📍</div>
+      <h3>Location</h3>
+      <p>Kumasi, Ghana</p>
+      <span class="click-hint">Click to view map</span>
+  </a>
+</div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                  <input type="text" id="name" name="name" required>
+                  <label for="name">Your Name</label>
+                  <div class="line"></div>
+              </div>
+
+              <div class="form-group">
+                  <input type="email" id="email" name="email" required>
+                  <label for="email">Your Email</label>
+                  <div class="line"></div>
+              </div>
+
+              <div class="form-group">
+                  <input type="text" id="subject" name="subject" required>
+                  <label for="subject">Subject</label>
+                  <div class="line"></div>
+              </div>
+
+              <div class="form-group">
+                  <textarea id="message" name="message" required></textarea>
+                  <label for="message">Your Message</label>
+                  <div class="line"></div>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                  <span>Send Message</span>
+                  <div class="success-animation">
+                      <svg viewBox="0 0 16 16">
+                          <polyline points="3.75 9 7 12 13 5"></polyline>
+                      </svg>
+                  </div>
+              </button>
+          </form>
+      </div>
+
+      <!-- Social Links -->
+      <div class="social-links">
+          <a href="https://github.com/abdulsamed619" target="_blank" class="social-link">
+              <div class="social-icon">GitHub</div>
+          </a>
+          <a href="https://linkedin.com/in/abdul-samed-abdul-rahim-7a3047267" target="_blank" class="social-link">
+              <div class="social-icon">LinkedIn</div>
+          </a>
+          <a href="https://tiktok.com/@trustmedear19?t=ZM-8t7mQbqxB6T&_r=1" target="_blank" class="social-link">
+              <div class="social-icon">Tiktok</div>
+          </a>
+      </div>
+  </div>
+</section>
+
+
+  <script>
+    // Smooth Scrolling for all links with a hash
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  
+    
+</main>
+    
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+      <p>&copy; 2025 Abdulsamed-porfolio. All rights reserved.</p>
+      <p>Designed with ❤️ by Abdul Samed Abdul Rahim</p>
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
