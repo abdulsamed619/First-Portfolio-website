@@ -204,9 +204,10 @@ a {
 /* About Section */
 .about {
     position: relative;
-    padding: 80px 30px;
+    padding: 100px 50px;
     min-height: 100vh;
     display: flex;
+    background-color: bc6c25;
     align-items: center;
     justify-content: center;
     text-align: left;
